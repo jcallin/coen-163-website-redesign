@@ -12,9 +12,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
+<script>
+    function dateFun(){
+        var date = Date();
+        $("#date").append(date);
+    }
+</script>
 
-
-<body>
+<body onload="dateFun();">
 
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -30,61 +35,66 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="home.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="contact.html">CALENDAR</a></li>
-                    <li class="active"><a href="#">CONTACT</a></li>
+                    <li class="active"><a href="#">CALENDAR</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <div id="top" class="container-fluid bg-1 text-center">
+        <h1> Today's Date is: <span id="date"></span></h1>
     </div>
 
     <div id="who" class="container-fluid bg-2 text-center">
-        <div class="row">
-            <div class="col-sm-4">
+        <h3>Academic Calendar</h3>
+        <div id="academic" class="row">
+            <div class="col-sm-6">
+                <h4>Fall 2016</h4>
+                <p>Aug.	29,	M.	 —— 	Orientation for all new students.</p>
+                <p>Aug.	30,	T.	 —— 	Registration for all students.</p>
+                <p>Aug.	31,	W.	 —— 	Fall-term classes begin, 8:20 a.m.</p>
+                <p>Sep.	5,	M.	 —— 	Labor Day; classes do not meet; offices closed</p>
+                <p>Sep.	19,	M.	 —— 	Last day to add a course with permission of registrar.</p>
+                <p>Oct.	18,	T.	 —— 	October recess begins, 11 p.m.</p>
+                <p>Oct.	24,	M.	 —— 	October recess ends; Classes resume, 8:20 a.m.</p>
+                <p>Oct.	28,	F.	 —— 	Last day to drop a course with permission of registrar. Midterm grades due, 12 noon.</p>
+                <p>Nov.	17,	TH.	 —— 	Annual All-School Open House.</p>
+                <p>Nov.	18,	F.	 —— 	November recess begins, 5:30 p.m.</p>
+                <p>Nov.	28,	M.	 —— 	Classes resume, 8:20 a.m.</p>
+                <p>Dec.	9,	F.	 —— 	Last day to withdraw from a course with permission of instructor and registrar. Fall-term classes end, 5:30 p.m. Reading period begins.</p>
+                <p>Dec.	15,	TH.	 —— 	Critiques and examinations begin, 9 a.m.</p>
+                <p>Dec.	21,	W.	 —— 	Critiques and examinations end, 5:30 p.m. Winter recess begins.</p>
             </div>
-            <div class="col-sm-4">
-            </div>
-            <div class="col-sm-4">
-            </div>
-        </div>
-    </div>
-
-    <div id="where" class="container-fluid bg-3 text-center">
-        <div class="row">
-            <div class="col-sm-4">
-            </div>
-            <div class="col-sm-4">
-            </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
+                <h4>Spring 2017</h4>
+                <p>Jan.	04,	W.	 —— 	Closing date for submission of online applications for admission in September 2017, 12 midnight EST</p>
+                <p>Jan.	16,	M.	 —— 	Martin Luther King Day; classes do not meet, offices closed.</p>
+                <p>Jan.	17,	T.	 —— 	Registration for all students. Academic classes begin</p>
+                <p>Jan.	18,	W.	 —— 	Spring-term School of Art classes begin, 8:20 a.m.</p>
+                <p>Feb.	06,	M.	 —— 	Last day to add a course with permission of registrar.</p>
+                <p>Mar.	10,	F.	 —— 	Last day to drop a course with permission of registrar. Midterm grades due, 12 noon. Spring recess begins, 5:30 p.m.</p>
+                <p>Mar.	27,	M.	 —— 	Spring recess ends; classes resume, 8:20 a.m.</p>
+                <p>Apr.	28,	F.	 —— 	Last day to withdraw from a course with permission of instructor and registrar. Spring-term classes end, 5:30 p.m. Reading period begins</p>
+                <p>May	04,	TH.	 —— 	Critiques and examinations begin, 9 a.m.</p>
+                <p>May	10,	W.	 —— 	Critiques and examinations end 5:30 p.m. Summer recess begins.</p>
+                <p>May	22,	M.	 —— 	University Commencement.</p>
             </div>
         </div>
     </div>
 
     <div id="skill" class="container-fluid bg-4 text-center">
+        <h3>Other Calendars</h3>
         <div class="row">
             <div class="col-sm-6">
+                <a class="linksCal" href="http://artscalendar.yale.edu/" target="_blank">Visit Art School Calendar</a>
             </div>
             <div class="col-sm-6">
+                <a class="linksCal" href="http://calendar.yale.edu/cal/ysoa" target="_blank">Visit Yale University Events Calendar</a>
             </div>
         </div>
     </div>
 
-    <div id="ex" class="container-fluid bg-5 text-center">
-        <div class="row">
-            <div class="col-sm-6">
-            </div>
-            <div class="col-sm-6">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-            </div>
-            <div class="col-sm-6">
-            </div>
-        </div>
-    </div>
     <footer class="container-fluid bg-6 text-center">
         <p>Yale University School of Art 1156 Chapel Street, POB 208339 New Haven, Connecticut, 06520-8339</p>
         <p>(203) 432-2600</p>

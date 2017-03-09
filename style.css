@@ -16,8 +16,8 @@
         background-color: #1abc9c;
         /* Green */
         color: #ffffff;
-        padding-top: 150px;
-        margin-top: 50px;
+        padding-top: 2000px;
+        margin-top: 60px;
     }
 
     .bg-2 {
@@ -79,16 +79,35 @@
         color: #ffffff;
         text-decoration: none;
     }
+
     .links {
         color: #99c2ff;
+    }
+
+    .linksAbout:hover {
+        color: #99c2ff;
+        text-decoration: none;
+    }
+
+    .linksAbout {
+        color: #4d94ff;
+    }
+
+    .linksCal:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .linksCal {
+        color: #cce0ff;
     }
 
     footer {
         background-color: #474e5d;
         /* Black Gray */
         color: #ffffff;
-        padding-top: 15px !important;
-        padding-bottom: 15px !important;
+        padding-top: 50px !important;
+        padding-bottom: 35px !important;
     }
 
     #imgProj {
@@ -98,4 +117,8 @@
         max-width: 100%;
         border-radius: 10px;
         margin: 5px;
+    }
+
+    #academic {
+        text-align: left;
     }
