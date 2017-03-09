@@ -122,3 +122,10 @@
     #academic {
         text-align: left;
     }
+
+    #logo {
+        float: left;
+        padding: 5px;
+        position: relative;
+        left: 37%;
+    }
