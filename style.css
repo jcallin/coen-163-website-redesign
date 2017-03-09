@@ -16,6 +16,7 @@
         background-color: #1abc9c;
         /* Green */
         color: #ffffff;
+        padding-top: 150px;
         margin-top: 50px;
     }
 
@@ -74,10 +75,27 @@
         border-radius: 18px;
     }
 
+    .links:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .links {
+        color: #99c2ff;
+    }
+
     footer {
         background-color: #474e5d;
         /* Black Gray */
         color: #ffffff;
         padding-top: 15px !important;
         padding-bottom: 15px !important;
+    }
+
+    #imgProj {
+        display: block;
+        margin: auto;
+        width: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+        margin: 5px;
     }
