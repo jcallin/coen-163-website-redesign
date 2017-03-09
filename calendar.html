@@ -15,8 +15,10 @@
 <script>
     function dateFun(){
         var date = Date();
+        $("#date").empty();
         $("#date").append(date);
     }
+    setInterval(dateFun, 1000);
 </script>
 
 <body onload="dateFun();">
