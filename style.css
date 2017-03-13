@@ -75,13 +75,16 @@
         border-radius: 18px;
     }
 
+    .dropdown-menu li a {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+    }
+
     .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
         background-color: #66a3ff;
         color: #000000;
     }
-    .dropdown-menu > li > a{
-        color: #474e5d;
-    }
+    
     .nav.navbar-nav > .open > a{
         background-color: #99c2ff !important;
         color: #ffffff !important;
