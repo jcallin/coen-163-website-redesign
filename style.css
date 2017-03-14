@@ -82,8 +82,8 @@
     }
 
     .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-        background-color: #66a3ff;
-        color: #000000;
+        background-color: #66a3ff !important;
+        color: #000000 !important;
     }
 
     .nav.navbar-nav > .open > a{
