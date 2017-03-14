@@ -149,3 +149,11 @@
     #top {
         padding-bottom: 40px !important;
     }
+
+    .term {
+        border-style: solid;
+        border-radius: 12px;
+        border-color: #1abc9c;
+        padding: 10px;
+        display: inline-block;
+    }
