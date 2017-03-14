@@ -16,7 +16,6 @@
         background-color: #1abc9c;
         /* Green */
         color: #ffffff;
-        padding-top: 2000px;
         margin-top: 60px;
     }
 
@@ -145,4 +144,8 @@
         padding: 5px;
         position: relative;
         left: 37%;
+    }
+
+    #top {
+        padding-bottom: 40px !important;
     }
