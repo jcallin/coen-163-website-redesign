@@ -14,9 +14,30 @@
 </head>
 <script>
     function dateFun(){
-        var date = Date();
+        var date = new Date();
+        var pmFlag = false;
+
+        var day = date.getDate();
+        var month = date.getMonth()+1;
+        var year = date.getFullYear();
+
+        var hour = date.getHours();
+        if(hour>12){
+            hour-=12;
+            pmFlag=true;
+        }
+        var min = date.getMinutes();
+        var sec = date.getSeconds();
+
+        if(pmFlag){
+            var amPm = "PM";
+        }
+        else{
+            var amPm = "AM";
+        }
+
         $("#date").empty();
-        $("#date").append(date);
+        $("#date").append(month+'/'+day+'/'+year+' '+hour+':'+min+':'+sec+' '+amPm);
     }
     setInterval(dateFun, 1000);
 </script>
@@ -65,7 +86,7 @@
         </div>
     </nav>
 
-    <div id="top" class="container-fluid bg-1 text-center">
+    <div id="pot" class="container-fluid bg-1 text-center">
         <h1> Today's Date is: <span id="date"></span></h1>
     </div>
 
