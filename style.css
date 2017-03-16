@@ -1,11 +1,18 @@
     body {
         font: 20px Montserrat, sans-serif;
         line-height: 1.8;
-        color: #434956;
+        color: #000000;
     }
 
     p {
         font-size: 16px;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: #000000 !important;
+    }
+    .navbar-default .navbar-brand {
+        color: #000000 !important;
     }
 
     .margin {
@@ -13,7 +20,7 @@
     }
 
     .bg-1 {
-        background-color: #1abc9c;
+        background-color: #0a6553;
         /* Green */
         color: #ffffff;
         margin-top: 60px;
@@ -32,7 +39,7 @@
     }
 
     .bg-4 {
-        background-color: #1abc9c;
+        background-color: #0a6553;
         /* White */
         color: #ffffff;
     }
